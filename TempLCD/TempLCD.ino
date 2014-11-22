@@ -72,13 +72,13 @@ void loop(void)
   lcd.write(byte(0));  
 //  lcd.noDisplay();
  checkTalkBack(teplota);
-//  delay(checkTalkBackInterval);
+ delay(checkTalkBackInterval);
 }
 
 void checkTalkBack(float temp)
 {
   lcd.setCursor(10,1);
-  lcd.print("       ")'  
+  lcd.print("       ");
   HttpClient client;
   
   String talkBackCommand;
@@ -94,6 +94,4 @@ void checkTalkBack(float temp)
   }
   lcd.setCursor(10,1);
   lcd.print("D:"+talkBackCommand);  
-  Serial.flush(); 
-  delay(1000);
 }
