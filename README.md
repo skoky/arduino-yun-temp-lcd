@@ -15,6 +15,7 @@ SW Used:
 ThinkSpeak temperature results https://thingspeak.com/channels/12699
 
 Final prototype images:
+![image1](/images/IMG_20160529_170516.jpg)
 ![image1](/images/IMG_20141122_150217.jpg)
 ![image2](/images/IMG_20141122_150231.jpg)
 ![image3](/images/IMG_20141122_150239.jpg)
