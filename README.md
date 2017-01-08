@@ -7,7 +7,7 @@ HW used:
 - Digital temperature sensor Maxim DS18B20 - http://www.hobbytronics.co.uk/ds18b20-arduino
 
 SW Used:
-- OneWire and Dallas temperature libraries to connect to temperature sensor http://www.milesburton.com/?title=Dallas_Temperature_Control_Library
+- OneWire and Dallas temperature libraries to connect to temperature sensor https://www.milesburton.com/Dallas_Temperature_Control_Library
 - LiquidCrystal library for displaying temperature to LCD panel http://arduino.cc/en/Reference/LiquidCrystal?from=Tutorial.LCDLibrary
 - Arduino bridge library and HttpClient to send data to cloud http://arduino.cc/en/Reference/YunBridgeLibrary
 - ThinkSpeak cloud to predent temperature https://thingspeak.com/
