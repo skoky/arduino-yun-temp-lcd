@@ -6,13 +6,10 @@ HW used:
 - Connetors board between Arduino and LCD panel - https://www.sparkfun.com/products/7914
 - Digital temperature sensor Maxim DS18B20 - http://www.hobbytronics.co.uk/ds18b20-arduino
 
-SW Used:
-- OneWire and Dallas temperature libraries to connect to temperature sensor http://www.milesburton.com/?title=Dallas_Temperature_Control_Library
-- LiquidCrystal library for displaying temperature to LCD panel http://arduino.cc/en/Reference/LiquidCrystal?from=Tutorial.LCDLibrary
-- Arduino bridge library and HttpClient to send data to cloud http://arduino.cc/en/Reference/YunBridgeLibrary
-- ThinkSpeak cloud to predent temperature https://thingspeak.com/
-
-ThinkSpeak temperature results https://thingspeak.com/channels/12699
+Adding libraries to Arduino IDE 1.8:
+- In menu Sketch / Include library / Manage library 
+- Search for DallasTemparature, version 3.7.5 and install
+- Search for OneWire, version 2.3.2 and install
 
 Final prototype images:
 ![image1](/images/IMG_20160529_170516.jpg)
