@@ -1,4 +1,3 @@
-#include <OneWire.h>
 #include <DallasTemperature.h>
 #include <LiquidCrystal.h>
 #include "Bridge.h"
