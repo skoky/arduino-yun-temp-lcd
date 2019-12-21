@@ -68,6 +68,7 @@ void loop(void)
   lcd.setCursor(12,1);
   lcd.print("->Ok");
   delay(checkTalkBackInterval); 
+  delay(3600000);  // wait 1 hour
 } 
 
 float getTemp() 
